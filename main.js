@@ -16,10 +16,10 @@ recognition.addEventListener('result', (e)=>{
 
   p.innerText = text;
   if(e.results[0].isFinal){
-    if (text.includes('how are you')) {
+    if (text.includes('Cómo estas')) {
       p = document.createElement('p');
       p.classList.add('replay');
-      p.innerText = 'I am fine';
+      p.innerText = 'Muy bien, muchas gracias';
       texts.appendChild(p)
     }
     if (text.includes("Cuál es tu nombre") || text.includes('cuál es tu nombre')) {
