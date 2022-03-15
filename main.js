@@ -22,13 +22,13 @@ recognition.addEventListener('result', (e)=>{
       p.innerText = 'I am fine';
       texts.appendChild(p)
     }
-    if (text.includes("what's your name") || text.includes('what is your name')) {
+    if (text.includes("Cuál es tu nombre") || text.includes('cuál es tu nombre')) {
       p = document.createElement('p');
       p.classList.add('replay');
       p.innerText = 'My Name is Cifar';
       texts.appendChild(p)
     }
-    if (text.includes('open my YouTube')) {
+    if (text.includes('Abre YouTube')) {
       p = document.createElement('p');
       p.classList.add('replay');
       p.innerText = 'opening youtube channel';
